@@ -381,8 +381,8 @@ h1{
         height: 162px;
         grid-area: space;
     }
-    .back-img{
-        width:750px;
+   .back-img{
+        width:820px;
         height:100px;
         background: url('images/bg-curve-mobile.svg') no-repeat;
         background-size:cover;
@@ -390,7 +390,7 @@ h1{
     }
     .intro-2{
         margin-top:-15px;
-        width:750px;
+        width:820px;
         display:flex;
         flex-direction: column-reverse;
        align-items: center;
