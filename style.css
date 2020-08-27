@@ -23,20 +23,21 @@ h1{
 }
 .container{
     display:grid;
-    grid-template-columns:500px 500px 430px ;
+    grid-template-columns:500px 500px 410px ;
     grid-gap: 10px;
     grid-template-areas: "hd hd hd " "int int int" "space space space" "imgg imgg imgg" "mid mid mid" "sig sig sig" "foot foot foot";
-
+  
 }
-.header{
+header{
     grid-area: hd;
-    padding:60px 97px 60px 70px;/*top right bottom left*/
+    padding:60px 97px 60px 70px;
     display:flex ;
     justify-content: space-between;
+ 
 }
 .links{
     display: inline-flex;
-    width:270px;
+    width:250px;
     justify-content:space-between;
     padding-top: 10px;
 }
@@ -102,7 +103,7 @@ h1{
 }
 .back-img{
    grid-area: imgg;
-   width:1430px;
+   width:1440px;
    height:110px;
    background: url('images/bg-curve-desktop.svg') no-repeat;
    background-size:cover;
@@ -132,7 +133,7 @@ h1{
 .img-bar{
     width:530px;
     padding-top: 95px;
-    padding-right: 30px;
+    padding-right: 10px;
 }
 .img-bar img{
     width:100%;
@@ -225,7 +226,7 @@ h1{
 .sign-up .formm button{
     margin-top:20px;
 }
-.footer{
+footer{
     grid-area: foot;
     background-color: hsl(243, 87%, 12%);
     margin-top: -10px;
@@ -236,7 +237,7 @@ h1{
     padding-left:73px;
 }
 
-.footer .site-info{
+footer .site-info{
     display:flex;
     flex-direction: row;
     width:1092px;
@@ -244,19 +245,19 @@ h1{
     justify-content: space-between;
 }
 
-.footer .site-info .contact-info ul{
+footer .site-info .contact-info ul{
     margin-top:20px;
     padding-inline-start: 26px;
 }
-.footer .site-info .contact-info ul li{
+footer .site-info .contact-info ul li{
     padding-left: 15px;
   
 }
-.footer .site-info .contact-info ul .phone{
+footer .site-info .contact-info ul .phone{
     list-style-image: url('images/icon-phone.svg');
      margin-bottom: 18px;
 }
-.footer .site-info .contact-info ul .email{
+footer .site-info .contact-info ul .email{
     list-style-image: url('images/icon-email.svg');
 }
 
@@ -271,7 +272,7 @@ h1{
     text-decoration: none;
     color: #ffffff;
 }
-.footer .site-info .social-media
+footer .site-info .social-media
 {
     padding-top: 20px;
     text-align: center;
@@ -301,16 +302,16 @@ h1{
     }
     .container{
         display:grid;
-        grid-template-columns:250px 250px 320px ;
+        grid-template-columns:250px 250px 220px ;
         grid-gap: 10px;
         grid-template-areas: "hd hd hd " "int int int" "space space space" "imgg imgg imgg" "mid mid mid" "sig sig sig" "foot foot foot";
       
     }
-    .header{
+    header{
         grid-area: hd;
         display:flex ;
         justify-content: space-between;
-        padding:40px 50px 60px 40px;
+        padding:40px 20px 60px 40px;/*top right bottom left*/ 
        
     }
     .links{
@@ -328,6 +329,7 @@ h1{
         justify-content: center;
         padding-left: 40px;
         padding-top:120px;
+       
     }
     .img-1{
         width:640px;
@@ -381,8 +383,8 @@ h1{
         height: 162px;
         grid-area: space;
     }
-   .back-img{
-        width:820px;
+    .back-img{
+        width:720px;
         height:100px;
         background: url('images/bg-curve-mobile.svg') no-repeat;
         background-size:cover;
@@ -390,7 +392,7 @@ h1{
     }
     .intro-2{
         margin-top:-15px;
-        width:820px;
+        width:720px;
         display:flex;
         flex-direction: column-reverse;
        align-items: center;
@@ -409,19 +411,19 @@ h1{
     .slidebar h1{
         font-size: 2.0em;
         text-align: center;
-        padding-right:15px;
         margin-bottom: 55px;
     }
     .slidebar p{
         font-size: 28px;
         width: 95%; 
+        padding-left: 14px;
     }
     .slidebar .last-paragh
     {
-        margin-bottom: 60px;
+        margin-bottom: 63px;
     }
     .slidebar a{
-     margin-left:200px;
+     margin-left:215px;
     }
     .slidebar a span{
         font-size:25px;
@@ -432,13 +434,14 @@ h1{
         width:26px;
     }
     .review{
-        margin: 80px auto 110px auto;
+        margin: 75px auto 110px auto;
         padding:48px 50px;
         width:470px;
         height:300px;
     }
     .review .quotes{
         width:25px;
+        padding-left:12px;
     }
     .review p{
         font-size:21px;
@@ -485,7 +488,7 @@ h1{
     .sign-up .contentt h2{
        padding-top: 30px;
         font-size: 2.3em;
-        padding-right:55px;
+        padding-right:40px;
   
     }
     .sign-up .contentt p{
@@ -525,45 +528,45 @@ h1{
         margin-top:12px;
 
     }
-    .footer{
+    footer{
         padding-top:130px;
         padding-left:75px;
     }
-    .footer .foot-img
+    footer .foot-img
     {
         width:350px;
     }
-    .footer .foot-img img{
+    footer .foot-img img{
         width:100%;
     }
-    .footer .site-info{
+    footer .site-info{
         margin-top:0px;
         display:flex;
         flex-direction: column;
-        width:750px;
+        width:650px;
         height:1095px;
         justify-content: space-around;
         padding-left: 20px;
     }
     
-    .footer .site-info .contact-info ul{
+    footer .site-info .contact-info ul{
         font-size:30px;
         margin-top:40px;
         padding-inline-start: 20px;
        
     }
-    .footer .site-info .contact-info ul li{
+    footer .site-info .contact-info ul li{
         padding-left: 38px;
       
     }
-    .footer .site-info .contact-info ul .phone{
+    footer .site-info .contact-info ul .phone{
 
  
         list-style-image: url('images/icon-phone-1.svg');
         margin-bottom: 40px;
      
     }
-    .footer .site-info .contact-info ul .email{
+    footer .site-info .contact-info ul .email{
         list-style-image: url('images/icon-email-1.svg');
     }
     
@@ -572,13 +575,12 @@ h1{
         font-size: 30px;
         margin-top:0px;
         padding-inline-start: 0px;
-        margin-left: -20px;
     }
     .linkks li{
         margin-bottom: 36px;
     }
     
-    .footer .site-info .social-media
+    footer .site-info .social-media
     {
         padding-top: 0px;
         padding-bottom:30px;
